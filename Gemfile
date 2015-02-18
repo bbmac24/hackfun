@@ -18,6 +18,8 @@ gem 'bootstrap-sass', '~> 3.3.3'
 
 gem 'instagram'
 
+gem 'figaro'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
