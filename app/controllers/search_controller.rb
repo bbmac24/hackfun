@@ -5,6 +5,6 @@ class SearchController < ApplicationController
 
   def show
     @client = Instagram.client
-    @images = @client.tag_recent_media("huge")
+    @images = @client.tag_recent_media("celebrity")
   end
 end
